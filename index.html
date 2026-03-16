@@ -1,0 +1,35 @@
+
+Tôi (16:48): <!DOCTYPE html>
+<html>
+<head>
+<title>LEADVISORS TOWER MONTHLY REPORT</title>
+<script>
+function checkPassword() {
+const password = document.getElementById("password"  .value;
+const correctPassword = "abcxyz"; // 🔒 Thay đổi mật khẩu tại đây
+if (password === correctPassword) {
+document.getElementById("login"  .style.display = "none";
+document.getElementById("report"  .style.display = "block";
+} else {
+alert("Sai mật khẩu!"  ;
+}
+}
+</script>
+</head>
+<body style="font-family: sans-serif; text-align: center; margin-top: 50px">
+
+<div id="login">
+<h2>Vui lòng nhập mật khẩu để xem báo cáo</h2>
+<input type="password" id="password" placeholder="Mật khẩu" />
+<button onclick="checkPassword()">Truy cập</button>
+</div>
+
+<div id="report" style="display:none;">
+<h2>LEADVISORS TOWER MONTHLY REPORT</h2>
+<iframe width="100%" height="600px"
+src="copy link vào đây"
+frameborder="0" allowFullScreen="true"></iframe>
+</div>
+
+</body>
+</html>
